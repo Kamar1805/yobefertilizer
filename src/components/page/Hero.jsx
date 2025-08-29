@@ -23,23 +23,18 @@ const Hero = ({ handleNotImplemented }) => {
               expert soil analysis, and innovative farming solutions since 2003.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <Button
-                onClick={handleNotImplemented}
-                size="lg"
-                className="bg-green-600 hover:bg-green-700 text-lg px-8 py-3 pulse-green"
-              >
-                Explore Products
-                <ChevronRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button
-                onClick={handleNotImplemented}
-                variant="outline"
-                size="lg"
-                className="border-green-600 text-green-600 hover:bg-green-50 text-lg px-8 py-3"
-              >
-                Learn More
-              </Button>
-            </div>
+            <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-lg px-8 py-3 pulse-green">
+  <a href="#products">
+    Explore Products
+    <ChevronRight className="ml-2 w-5 h-5" />
+  </a>
+</Button>
+<Button asChild variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50 text-lg px-8 py-3">
+  <a href="#contact">
+    Get in Touch
+  </a>
+</Button>
+</div>
           </motion.div>
 
           <motion.div
