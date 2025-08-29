@@ -7,7 +7,7 @@ import Hero from '@/components/page/Hero';
 import About from '@/components/page/About';
 import Services from '@/components/page/Services';
 import Board from '@/components/page/Board';
-import Management from '@/components/page/Management';
+
 import Products from '@/components/page/Products';
 import Contact from '@/components/page/Contact';
 import Footer from '@/components/page/Footer';
@@ -37,7 +37,7 @@ function App() {
           <About />
           <Services />
           <Board />
-          <Management />
+     
           <Products />
           <Contact />
         </main>

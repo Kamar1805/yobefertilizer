@@ -30,11 +30,13 @@ const boardMembers = [
     portfolio: ['Executive Director/CFO', '(Finance and Strategy)'],
     image: null,
   },
+  /*
   {
     name: 'Hon. Ali Mustapha Goniri',
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
     image: 'https://horizons-cdn.hostinger.com/6e864be7-e2bd-4169-a41b-55b821945d13/0aba554dbd4f7c7a7414e0b8fcc1b532.jpg',
   },
+  */
   {
     name: 'Dr. Aliyu Chikaji',
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
@@ -50,7 +52,7 @@ const boardMembers = [
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
     image: 'https://horizons-cdn.hostinger.com/6e864be7-e2bd-4169-a41b-55b821945d13/b495363aa2ba74ef4d0a55a2ced90c49.png',
   },
-  {
+  /*{
     name: 'Abdullahi Hassan Gana',
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
     image: 'https://horizons-cdn.hostinger.com/6e864be7-e2bd-4169-a41b-55b821945d13/a98a5824ef51681336f837daadb093fe.png',
@@ -59,12 +61,12 @@ const boardMembers = [
     name: 'Mohammed Abatcha Geidam',
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
     image: 'https://horizons-cdn.hostinger.com/6e864be7-e2bd-4169-a41b-55b821945d13/a95e6183121f5ce0f12c31a56697a6a1.png',
-  },
+  },*/
   {
-    name: 'Hon. Kaigama Umar Yunusari',
+    name: 'Hon. Hamza Saidu',
     portfolio: ['Non-Executive Director', 'Nigerian Food Corporation'],
-    image: 'https://horizons-cdn.hostinger.com/6e864be7-e2bd-4169-a41b-55b821945d13/858c036e81f21c7bd3ce36ce7fcea3eb.jpg',
-  },
+    image: null
+  }
 ];
 
 const Board = () => {

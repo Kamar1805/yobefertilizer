@@ -49,9 +49,11 @@ const Hero = ({ handleNotImplemented }) => {
             className="relative floating-animation hidden lg:block"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                alt="Lush green farmland with crops growing in fertile soil"
-                className="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1676600869776-e056386e0e3d" />
+            <img 
+  alt="Fertilizer being applied to farmland"
+  className="w-full h-96 object-cover"
+  src="/fertil.jpg" 
+/>
               <div className="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
             </div>
           </motion.div>

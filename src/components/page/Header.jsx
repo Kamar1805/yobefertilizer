@@ -11,7 +11,7 @@ const Header = ({ handleNotImplemented }) => {
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#board', label: 'Our Board' },
-    { href: '#management', label: 'Management Team' },
+    /*{ href: '#management', label: 'Management Team' }, */
     { href: '#products', label: 'Products' },
     { href: '#contact', label: 'Contact' },
   ];
